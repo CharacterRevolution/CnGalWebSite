@@ -104,6 +104,11 @@ namespace CnGalWebSite.DataModel.Model
         /// 审核记录 也是编辑记录
         /// </summary>
         public ICollection<Examine> Examines { get; set; }
+        
+        /// <summary>
+        /// 修订版本号
+        /// <summary>
+        public string RevisionNumber { get; set; }
     }
 
     public enum ArticleType
